@@ -1,10 +1,17 @@
-import { React } from 'react'
+import React from 'react'
+import '../App.css'
+import NavBar from './NavBar'
 
 
-function HomePage() {
+
+
+export default function HomePage() {
     return (
-        <div>
-            <h2>HI</h2>
-        </div>
+        <React.Fragment>
+            <NavBar />
+            <div id='title'>
+                <h1 id='title1'>Blog Life</h1>
+            </div>
+        </React.Fragment>
     )
 }

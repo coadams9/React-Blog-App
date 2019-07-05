@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css';
 import { Switch, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Switch>
+      <Route path='*' component={HomePage} />
+    </Switch>
   )
 }
 

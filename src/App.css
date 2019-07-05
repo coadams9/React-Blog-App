@@ -1,33 +1,22 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div#title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #9e9e9e;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1em
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 13px;
+  border-width: thick;
+  border: blue;
+  background-color: white;
+  font-size: 7em;
+  border-style: groove;
+  border-color: darkgoldenrod;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title1{
+  font-family: 'Mountains of Christmas', cursive;
 }
