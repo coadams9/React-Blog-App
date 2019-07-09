@@ -3,11 +3,11 @@ import '../App.css'
 import NavBar from './NavBar'
 import { Button, Icon } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
+// import { useState } from 'react'
 
 
 
-
-function HomePage() {
+const HomePage = () => {
     return (
         <div id='backGround'>
             <NavBar />

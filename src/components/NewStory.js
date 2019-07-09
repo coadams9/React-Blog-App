@@ -1,15 +1,24 @@
 import React from 'react'
 import '../stylesheets/NewStory.css'
-import { withRouter } from 'react-router-dom'
+import { Form } from 'semantic-ui-react'
 
 
-class NewStory extends React.Component {
-    render() {
-        return (
-            <h2>NewStory</h2>
-        )
-    }
+
+const NewStory = () => {
+
+    return (
+        <div id='newStoryMain'>
+            <h1>New Story</h1>
+            <div id='border'>
+                <label>Your Story</label>
+                <form>
+                    <textarea></textarea>
+                </form>
+            </div>
+        </div>
+    )
+
 }
 
 
-export default withRouter(NewStory)
+export default NewStory

@@ -1,0 +1,29 @@
+#newStoryMain{
+    background-color: darkgoldenrod;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    display: flex;
+    align-items: unset;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #e0e1e2;
+    font-family: 'Mountains of Christmas', cursive;
+    padding: 9px
+}
+
+label{
+    font-size: xx-large;
+    align-self: center;
+    margin: 10px;
+}
+
+#border{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    margin: 12px;
+}
