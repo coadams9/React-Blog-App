@@ -27,3 +27,13 @@ label{
     height: -webkit-fill-available;
     margin: 12px;
 }
+
+form {
+    height: 54em;
+    width: inherit;
+}
+
+#textarea{
+    width: -webkit-fill-available;
+    /* height: 100% */
+}

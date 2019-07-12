@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../stylesheets/NewStory.css'
-import { Form } from 'semantic-ui-react'
+// import { Form } from 'semantic-ui-react'
 
 
+
+
+// const handleSubmit = (e) => {
+//     e.preventDefault()
+//     debugger
+//     console.log(e.target)
+// }
 
 const NewStory = () => {
+
+    const [input, setInput] = useState('')
 
     return (
         <div id='newStoryMain'>
@@ -12,7 +21,8 @@ const NewStory = () => {
             <div id='border'>
                 <label>Your Story</label>
                 <form>
-                    <textarea></textarea>
+                    <textarea id='textarea' value={input} placeholder='Go on...' onChange={e => setInput(e.target.value)} />
+                    <button>Submit Story</button>
                 </form>
             </div>
         </div>
